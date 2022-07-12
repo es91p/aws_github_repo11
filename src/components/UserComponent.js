@@ -24,7 +24,7 @@ class UserComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">User Class Component - newly added***11</h1>
+        <h1 className="text-center">User Class Component - newly added***12</h1>
         <table className="table table-striped">
           <thead>
             <tr>
