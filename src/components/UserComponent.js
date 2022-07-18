@@ -16,6 +16,7 @@ class UserComponent extends React.Component {
   state = {};
 
   componentDidMount() {
+    //call the user service here to fetch the user data from the springboot backend - modified seconne time
     UserService.getUsers().then((res) => {
       this.setState({ users1: res.data });
     });
@@ -24,7 +25,7 @@ class UserComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="text-center">User Class Component</h1>
+        <h1 className="text-center">User Class Component - newly added***12</h1>
         <table className="table table-striped">
           <thead>
             <tr>
