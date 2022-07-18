@@ -16,6 +16,7 @@ class UserComponent extends React.Component {
   state = {};
 
   componentDidMount() {
+    //call the user service here to fetch the user data from the springboot backend - modified seconne time
     UserService.getUsers().then((res) => {
       this.setState({ users1: res.data });
     });
